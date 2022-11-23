@@ -1,0 +1,29 @@
+.w {
+    width: 800px;
+}
+.sym_box {
+    position: relative;
+}
+.logo {
+    width: 150px;
+    height: 98px;
+}
+.logo a{
+    position: absolute;
+    width: 150px;
+    height: 98px;
+    background-size: contain;
+}
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 14px;
+    text-indent: 2em;
+    margin-bottom: 5px;
+}
+h2 {
+    margin-bottom: 10px;
+}

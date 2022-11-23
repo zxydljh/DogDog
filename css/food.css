@@ -1,0 +1,109 @@
+/* nav模块 颜色样式变化 */
+.nav ul li:nth-child(3) a{
+    background-color: #ecb11b;
+    color: #fff;
+}
+/* 分类下拉列表 颜色样式变化 */
+.nav ul li:last-child:hover .two a {
+    background-color: #ecb11b;
+    color: #fff;
+} 
+/* food页面专有样式 */
+.drugstore ul {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.drugstore ul li {
+    float: left;
+    width: 260px;
+    height: 380px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.drugstore ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.drugstore ul li img {
+    width: 250px;
+    height: 260px;
+    margin-bottom: 10px;
+}
+/* 溢出的文字省略号显示 */
+.drugstore ul li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #767676;
+}
+.cost div:nth-child(1) {
+    font-size: 18px;
+    margin-top: 5px;
+    color: red;
+}
+.cost div:nth-child(1) i {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #666;
+}
+.cost div:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 78px;
+    color: red;
+    background-color: #f1f1f1;
+}
+.cost div:nth-child(2) a {
+    color: red;
+}
+.cost div:nth-child(2):hover a {
+    color: red;
+}
+/* 搜索页模块 */
+.search_page {
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    margin: 30px auto 70px;
+}
+.search_page ul {
+    margin-left: 300px;
+}
+.search_page ul li {
+    float: left;
+    margin-left: 20px;
+    color: #000;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.search_page ul li:hover {
+    background-color: aqua;
+    border: 1px solid #fff;
+}
+.search_page ul li:hover a {
+    color: #fff;
+}
+.search_page ul li:nth-child(1) {
+    background-color: aqua;
+    border: 1px solid #fff;
+}
+.search_page ul li:nth-child(1) a {
+    color: #fff;
+}
+.search_page ul li:nth-child(10) {
+    background-color: #eedeb4;
+    border: none;
+
+}
+.search_page ul li:nth-child(10):hover a {
+    color: #666;
+}

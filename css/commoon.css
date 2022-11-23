@@ -1,0 +1,293 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #eedeb4;
+}
+
+.style_red {
+    color: red;
+}
+
+.style_black {
+    color: black;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.fr ul>li {
+    position: relative;
+    height: 100px;
+}
+
+.service::after {
+    font-family: "iconfont";
+    content: "\e687";
+}
+
+.small_list {
+    position: absolute;
+    visibility: hidden;
+}
+
+.fr ul>li:hover .small_list {
+    visibility: visible;
+    z-index: 100;
+}
+
+/* header 头部模块 */
+.header {
+    height: 105px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    top: 25px;
+    left: 0;
+    width: 190px;
+    height: 114px;
+}
+
+.logo a {
+    display: block;
+    width: 190px;
+    height: 114px;
+    background: url(../images/logo_03.png) no-repeat;
+    /* 让文字隐藏 */
+    font-size: 0;
+}
+
+.search {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 600px;
+    height: 60px;
+}
+
+.search input {
+    width: 500px;
+    height: 42px;
+    margin-top: 12px;
+    padding-left: 10px;
+    border: 2px solid #ecb11b;
+}
+
+.search button {
+    float: right;
+    width: 88px;
+    height: 42px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ecb11b;
+    margin-top: 12px;
+}
+
+/* nav 模块 */
+nav {
+    border-bottom: 3px solid #f4b005;
+}
+
+.nav {
+    height: 50px;
+    padding: 0 50px;
+    line-height: 50px;
+}
+
+.nav ul {
+    margin-left: 300px;
+}
+
+.nav ul li {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin: 0 15px;
+}
+
+.nav ul li:hover>a {
+    background-color: #ecb11b;
+    color: #fff;
+}
+
+.nav ul li a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav ul li:last-child {
+    position: relative;
+    /* 使下拉列表位于图片上面 */
+    z-index: 100;
+}
+
+.nav ul li:last-child>a::after {
+    position: absolute;
+    font-family: "iconfont";
+    content: "\e687";
+    font-size: 20px;
+    margin-left: 10px;
+    transform: rotate(0deg);
+    transition: all .4s linear;
+}
+
+.classify_list {
+    visibility: hidden;
+}
+
+.nav ul li:last-child:hover .classify_list {
+    visibility: visible;
+}
+
+.classify_list div {
+    background-color: #ecb11b85;
+}
+
+.classify_list div:hover a {
+    background-color: #ecb11b;
+    color: #fff;
+}
+
+/* 鼠标经过 箭头旋转 */
+.nav ul li:last-child a:hover::after {
+    transform: rotate(180deg);
+}
+
+/* 侧边栏 模块 */
+/* 返回顶部 */
+.right-side {
+    position: relative;
+}
+
+.right-box {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+.right-box div {
+    margin-top: 3px;
+    height: 50px;
+    width: 50px;
+    background-color: #f1f1f1;
+}
+.right-box a {
+    font-size: 0;
+}
+
+.right-box a:hover {
+    color: #ecb11b;
+}
+
+.right-box .top_img a::before {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    font-size: 38px;
+    font-family: "iconfont";
+    content: "\e68b";
+}
+
+.right-side .car a::before {
+    content: '\e63c';
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    font-size: 38px;
+    font-family: "iconfont";
+}
+/* 购物车小红点 */
+.right-side .car{
+    position: relative;
+}
+.right-side .car a::after {
+    font-size: 10px;
+    content: "";
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    left: -10px;
+    top: 0;
+    padding: 2px;
+}
+/* footer 底部模块 */
+.care_box {
+    background: url(../upload/宣传画_01.png) no-repeat;
+    width: 1200px;
+    height: 300px;
+}
+
+.bottom {
+    margin-top: 200px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom a:hover {
+    color: #ecb11b;
+}
+
+.mod_service {
+    margin-left: 70px;
+    height: 60px;
+}
+
+.mod_service ul li {
+    display: block;
+    float: left;
+}
+
+.mod_service ul li::after {
+    content: "|";
+    margin: 0 20px;
+}
+
+.mod_service ul li:last-child::after {
+    content: "";
+}
+
+.mod_service ul li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-bottom: 50px;
+    font-size: 18px;
+}

@@ -1,0 +1,5 @@
+$(function(){
+    $(".expenditure").click(function () {
+        
+    })
+})

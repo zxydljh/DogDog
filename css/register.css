@@ -1,0 +1,209 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background-image: url(../upload/img9.51tietu.jpeg);
+}
+.style_red {
+    color: red;
+}
+.style_black {
+    color: black;
+}
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.shortcut ul li {
+    float: left;
+}
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.fr ul>li {
+    position: relative;
+    height: 100px;
+}
+.service::after {
+    font-family: "iconfont";
+    content: "\e687";
+}
+.small_list {
+    position: absolute;
+    visibility: hidden;
+}
+.fr ul>li:hover .small_list {
+    visibility: visible;
+    z-index: 100;
+}
+/* header 头部模块 */
+.log_in {
+    height: 105px;
+    margin: 20px 0;
+}
+.logo {
+    float: left;
+    top: 25px;
+    left: 0;
+    width: 190px;
+    height: 114px;
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 114px;
+    background: url(../images/logo_03.png) no-repeat;
+    /* 让文字隐藏 */
+    font-size: 0;
+}
+.page {
+    float: left;
+    margin-left: 30px; 
+    margin-top: 50px;
+    border-left: 1px solid rgb(192, 192, 192);
+}
+.page a {
+    display: block;
+    font-size: 24px;
+    margin-left: 30px;
+    height: 60px;
+    line-height: 60px;
+    color: black;
+}
+.page a:hover {
+    color: black;
+}
+
+/* 注册页专有模块 */
+.log_in_page {
+    margin: 20px auto 0;
+    width: 450px;
+    height: 580px;
+    padding: 20px 25px;
+}
+.log_in_box {
+    text-align: center;
+    margin: 10px auto;
+}
+input {
+    outline: none;
+}
+.input_box_input input {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 15px;
+    background-color: #eabd4c;
+}
+.code {
+    position: relative;
+}
+.code .get_code {
+    position: absolute;
+    display: inline;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    right: 52px;
+    top: 34px;
+    background-color: #eabd4c;
+}
+.input_box button {
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: #ecb11b;
+    color: #f1f1f1;
+}
+.input_box_am {
+    font-size: 14px;
+    margin-top: 20px;
+    height: 24px;
+    color: #fff;
+}
+.input_box_am input {
+    width: 15px;
+    height: 15px;
+}
+.input_box_am a {
+    margin: 0 3px;
+    color: orange;
+    text-align: 24px;
+}
+.input_box_else {
+    margin-top: 10px;
+    color: #f1f1f1;
+}
+.input_box_else span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.input_box_else .qq a::before {
+    font-family: "iconfont";
+    content: "\e73e";
+}
+.input_box_else .vx a::before {
+    font-family: "iconfont";
+    content: "\e607";   
+}
+.input_box_else .qq a::before,
+.input_box_else .vx a::before {
+    font-size: 30px;
+    color: orange;
+}
+
+/* footer 底部模块 */
+.bottom {
+    margin-top: 200px;
+    height: 200px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+.bottom,
+.bottom a {
+    color: #fff;
+}
+.bottom a:hover {
+    color: #ecb11b;
+}
+.mod_service {
+    margin-left: 70px;
+    height: 60px;
+}
+.mod_service ul li {
+    display: block;
+    float: left;
+}
+.mod_service ul li::after {
+    content: "|";
+    margin: 0 20px;
+}
+.mod_service ul li:last-child::after {
+    content: "";
+}
+.mod_service ul li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.copyright {
+    margin-bottom: 50px;
+}

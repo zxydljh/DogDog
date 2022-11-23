@@ -1,0 +1,110 @@
+/* nav模块中 该页面的导航项 背景颜色改变 */
+.nav ul li:nth-child(5){
+    background-color: #ecb11b;
+}
+.nav ul li:nth-child(5) >a {
+    color: #fff;
+}
+/* 分类页面专有模块 */
+.classify {
+    margin: 50px auto 100px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+/* 如果用定位制作 “更多” 样式 分类下拉列表下面两个选项 将不能进行选择*/
+/* .buy_drugstore_title {
+    position: relative;
+} */
+.classify_content .buy_drugstore h1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    line-height: 45px;
+}
+.classify_content .buy_drugstore span {
+    /* position: absolute; */
+    float: right;
+    right: 10px;
+    margin-top: 20px;
+    background-color: #eedeb4;
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+}
+.classify_content span a {
+    color: red;
+}
+.classify_content span:hover a {
+    color: red;
+}
+.classify_content span a::after {
+    font-family: "iconfont";
+    content: "\e688";
+
+}
+.classify_content h1 a {
+    color: rgb(199, 103, 39);
+}
+.classify_content h1:hover >a {
+    color: rgb(199, 103, 39);
+}
+/* 狗狗药店 */
+.classify_content ul {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.classify_content ul li {
+    float: left;
+    width: 260px;
+    height: 380px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.classify_content ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.classify_content ul li img {
+    width: 250px;
+    height: 260px;
+    margin-bottom: 10px;
+}
+/* 溢出的文字省略号显示 */
+.classify_content ul li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #767676;
+}
+.cost div:nth-child(1) {
+    font-size: 18px;
+    margin-top: 5px;
+    color: red;
+}
+.cost div:nth-child(1) i {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #666;
+}
+.cost div:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 78px;
+    color: red;
+    background-color: #f1f1f1;
+}
+.cost div:nth-child(2) a {
+    color: red;
+}
+.cost div:nth-child(2):hover a {
+    color: red;
+}
+/* 狗狗零食 */
+
+
+/* 狗狗玩具 */

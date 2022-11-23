@@ -1,0 +1,154 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background-color: #eedeb4;
+}
+.style_red {
+    color: red;
+}
+.style_black {
+    color: black;
+}
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.shortcut ul li {
+    float: left;
+}
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.fr ul>li {
+    position: relative;
+    height: 100px;
+}
+.service::after {
+    font-family: "iconfont";
+    content: "\e687";
+}
+.small_list {
+    position: absolute;
+    visibility: hidden;
+}
+.fr ul>li:hover .small_list {
+    visibility: visible;
+    z-index: 100;
+}
+/* 头部logo模块 */
+.header {
+    height: 105px;
+    margin-bottom: 20px;
+}
+.logo {
+    top: 25px;
+    left: 0;
+    width: 190px;
+    height: 114px;
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 114px;
+    background: url(../images/logo_03.png) no-repeat;
+    /* 让文字隐藏 */
+    font-size: 0;
+}
+
+/* suggest页专有模块 */
+.suggest {
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    background-color: #ecc722;
+    color: #000;
+}
+.title h1 {
+    text-align: center;
+
+}
+.suggest form {
+    margin-top: 10px;
+}
+.suggest form div {
+    margin-top: 25px;
+}
+.suggest form label {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    margin-left: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
+.suggest form input {
+    width: 200px;
+    height: 25px;
+}
+.suggest form textarea {
+    outline: none;
+    resize: none;
+    border: none;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.suggest form .description label {
+    float: left;
+}
+.suggest form button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 220px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* footer 底部模块 */
+.bottom {
+    margin-top: 200px;
+    height: 200px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+.bottom a:hover {
+    color: #ecb11b;
+}
+.mod_service {
+    margin-left: 70px;
+    height: 60px;
+}
+.mod_service ul li {
+    display: block;
+    float: left;
+}
+.mod_service ul li::after {
+    content: "|";
+    margin: 0 20px;
+}
+.mod_service ul li:last-child::after {
+    content: "";
+}
+.mod_service ul li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.copyright {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,137 @@
+/* nav模块中 该页面的导航项 背景颜色改变 */
+.nav ul li:nth-child(3) {
+    background-color: #ecb11b;
+}
+.nav ul li:nth-child(3) a {
+    color: #fff;
+}
+/* information页面专有模块 */
+/* 左排名 */
+.left_list_1 {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    transform: translateX(-110px);
+}
+/* 右排名 */
+.right_list_1 {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transform: translateX(110px)
+}
+.information .left_list_1 img,
+.information .right_list_1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+.information .left_list_1 li {
+    text-align: right;
+    margin-top: 10px;
+}
+.information .right_list_1 li {
+    text-align: left;
+    margin-top: 10px;
+}
+/* 狗狗资讯主要内容 */
+body {
+    background-image: url(../images/资讯背景.jpeg);
+}
+.information {
+    position: relative;
+    margin: 20px auto 50px;
+    font-size: 18px;
+    text-align: center;
+}
+.information h1 {
+    color: orange;
+}
+.information .new_news {
+    width: 500px;
+    height: 330px;
+    /* background-color: #f1f1f1; */
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+.left_picture img {
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    left: 125px;
+    top: 5px;
+}
+.right_picture img {
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    right: 125px;
+    top: 5px;
+}
+.information .new_news ul li {
+    float: left;
+    text-align: center;
+    height: 30px;
+    margin-top: 15px;
+    line-height: 30px;
+    border: 1px solid transparent;
+}
+.information .new_news ul li:hover {
+    border: 1px solid #ecb11b;
+}
+.information .new_news ul li:nth-child(even) {
+    margin-left: 20px;
+}
+.information .keep_dog {
+    overflow: hidden;
+    width: 800px;
+    height: 1300px;
+    /* background-color: #f1f1f1; */
+    padding: 0 20px;
+    margin: 50px auto 100px;
+}
+.information .keep_dog div {
+    float: left;
+    width: 320px;
+    height: 400px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 1px solid #999;
+    padding: 10px;
+} 
+.information .keep_dog h1 {
+    margin: 20px auto;
+}
+.information .keep_dog ul li {
+    text-align: left;
+}
+/* 左排名 */
+.left_list_2 {
+    position: absolute;
+    left: 0;
+    top: 900px;
+    transform: translateX(-110px);
+}
+/* 右排名 */
+.right_list_2 {
+    position: absolute;
+    right: 0;
+    top: 900px;
+    transform: translateX(110px)
+}
+.information .left_list_2 img,
+.information .right_list_2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+.information .left_list_2 li {
+    text-align: right;
+    margin-top: 10px;
+}
+.information .right_list_2 li {
+    text-align: left;
+    margin-top: 10px;
+}

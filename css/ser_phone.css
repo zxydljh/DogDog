@@ -1,0 +1,92 @@
+
+body {
+    background-color: #eedeb4
+}
+.w {
+    width: 800px;
+    height: 640px;
+    position: relative;
+    margin: 50px auto;
+}
+/* 头部标题 */
+.ser_online_box {
+    width: 800px;
+    height: 600px;
+    border: 1px solid rgb(241, 168, 11);
+    background-color: #f1f1f1;
+}
+.content {
+    padding: 10px;
+}
+.content_title {
+    width: 100%;
+    height: 60px;
+
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 95px;
+    height: 57px;
+    left: 0;
+    top: 0;
+}
+.title h1 {
+    display: inline-block;
+    line-height: 60px;
+    height: 57px;
+    color: orange;
+    transform: translate(253px,10px);
+    bottom: 0;
+}
+/* 电话盒子 */
+.phone {
+    padding: 100px 100px 0;
+    width: 100%;
+    height: 400px;
+}
+.phone div {
+    overflow: hidden;
+}
+.phone_after_sale,
+.phone_help {
+    overflow: hidden;
+    float: left;
+    width: 260px;
+    height: 260px;
+    background-color: #eedeb4;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid rgb(241, 168, 11);
+    color: black;
+}
+.box {
+    transition: all .4s ease-in-out;
+}
+.phone_after_sale:hover .box,
+.phone_help:hover .box {
+    transform: scale(1.1);
+}
+.phone_after_sale {
+    margin-left: 30px;
+}
+.phone h2 {
+    margin-top: 80px;
+    font-size: 20px;
+}
+.phone h3 {
+    margin: 10px 0;
+}
+.phone a {
+    color: black;
+}
+/* 版权 */
+.copyright {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+}

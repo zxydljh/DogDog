@@ -1,0 +1,104 @@
+/* nav模块中 该页面的导航项 背景颜色改变 */
+.nav ul li:nth-child(2) {
+    background-color: #ecb11b;
+}
+.nav ul li:nth-child(2) a {
+    color: #fff;
+}
+/* 狗狗种类专有模块 */
+.variety {
+    margin-top: 30px;
+}
+.variety h1 {
+    color: #e58d1a;
+    margin-bottom: 10px;
+}
+/* 小型宠物狗 */
+.little_dog ul {
+    margin-left: 15px;
+}
+.little_dog ul li {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+.little_dog ul li img {
+    width: 220px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+.little_dog ul li:hover a {
+    color: #666;
+}
+.little_dog ul li:nth-child(5n) {
+    margin-right: 0;
+}
+/* 中型宠物狗 */
+.medium_dog ul {
+    margin-left: 15px;
+}
+.medium_dog ul li {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+.medium_dog ul li img {
+    width: 220px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+.medium_dog ul li:hover a {
+    color: #666;
+}
+.medium_dog ul li:nth-child(5n) {
+    margin-right: 0;
+}
+/* 大型宠物狗 */
+.big_dog ul {
+    margin-left: 15px;
+}
+.big_dog ul li {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+.big_dog ul li img {
+    width: 220px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+.big_dog ul li:hover a {
+    color: #666;
+}
+.big_dog ul li:nth-child(5n) {
+    margin-right: 0;
+}
+.variety li {
+    overflow: hidden;
+}
+.variety li img {
+    transition: all .3s ease-in-out;
+    
+}
+.variety li img:hover {
+    transform: scale(1.3);
+}
+/* footer模块 */
+.care_box {
+    margin-top: 20px;
+}

@@ -1,0 +1,84 @@
+/* nav模块中 该页面的导航项 背景颜色改变 */
+.nav ul li:nth-child(4) {
+    background-color: #ecb11b;
+}
+
+.nav ul li:nth-child(4) a {
+    color: #fff;
+}
+
+/* buy_dog页面专有模块 */
+.buy_dog {
+    margin: 20px auto 150px;
+}
+
+.buy_dog a:hover {
+    color: #666;
+}
+
+.buy_dog_content {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.buy_dog_content .store {
+    position: relative;
+    width: 900px;
+    height: 220px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid beige;
+}
+
+.buy_dog_content .store:hover {
+    border: 1px solid orange;
+}
+
+.buy_dog_content .store img {
+    float: right;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.buy_dog_content .store .character {
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.character h2 {
+    margin-bottom: 20px;
+}
+
+.character h2 i {
+    color: rgb(212, 18, 18);
+}
+
+.character p {
+    margin-bottom: 20px;
+}
+
+.store .expenditure {
+    position: absolute;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    bottom: 10px;
+    left: 470px;
+    border-radius: 10px;
+}
+
+.store .expenditure a {
+    color: #fff;
+    margin-left: 20px;
+}
+
